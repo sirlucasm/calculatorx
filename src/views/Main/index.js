@@ -151,8 +151,8 @@ const styles = StyleSheet.create({
     textAlign:'center',
     width:80,
     marginHorizontal: normalize(10, 'width'),
-    marginTop:40,
-    padding:10,
+    marginTop: normalize(40, 'height'),
+    padding: normalize(10),
   },
   keysOrientation: {
     top: normalize(10, 'height'),
